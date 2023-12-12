@@ -5,7 +5,8 @@ import './index.css';
 // import Parent from './components/ContainerSample'
 // import Page from './components/ContextSample'
 // import Counter from './components/useStateSample'; //カウントボタン
-import Counter from './components/useReducerSample'; //カウントボタン
+//import Counter from './components/useReducerSample'; //カウントボタン
+import {Parent} from './components/useCallback' ;
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -13,7 +14,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Counter initialValue={0}/>
+    <Parent/>
   </React.StrictMode>
 );
 
