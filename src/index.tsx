@@ -8,7 +8,8 @@ import './css/style.css';
 //import Counter from './components/useReducerSample'; //カウントボタン
 // import {Parent} from './components/useCallback' ;
 // import {Clock} from "./components/Clock";
-import ImageUploader from "./components/useRef";
+// import ImageUploader from "./components/useRef";
+import Custom from './components/custom';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -16,7 +17,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
     <React.StrictMode>
-      <ImageUploader />
+      <Custom />
     </React.StrictMode>
 );
 
