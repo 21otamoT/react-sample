@@ -1,21 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './css/style.css';
 // import App from './App'; //デフォルトのファイル
 // import Parent from './components/ContainerSample'
 // import Page from './components/ContextSample'
 // import Counter from './components/useStateSample'; //カウントボタン
 //import Counter from './components/useReducerSample'; //カウントボタン
-import {Parent} from './components/useCallback' ;
+// import {Parent} from './components/useCallback' ;
+// import {Clock} from "./components/Clock";
+import ImageUploader from "./components/useRef";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <Parent/>
-  </React.StrictMode>
+    <React.StrictMode>
+      <ImageUploader />
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
